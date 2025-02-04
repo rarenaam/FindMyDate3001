@@ -39,14 +39,14 @@
     <form id="nameForm">
         <input type="text" id="nameInput" name="name_input" placeholder="Enter your name">
         <br>
-        <input type="button" value="Send My Name To Datacenter" id="submitButton">
+        <input type="button" value="Send my information to date ..." id="submitButton">
     </form>
 
     <script>
         document.getElementById("submitButton").addEventListener("click", function() {
             var name = document.getElementById("nameInput").value;
             if (name) {
-                alert("We are sending " + name + "'s to our database to send someone a message.");
+                alert("We are sending " + name + "'s data to our database to send ... a message.");
             } else {
                 alert("Please enter your name.");
             }
